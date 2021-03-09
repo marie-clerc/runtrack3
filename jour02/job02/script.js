@@ -6,18 +6,17 @@
  être gérées dans une fonction nommée “showhide()”.*/
 
 var button = document.getElementById("button");
-var article = document.createElement('article');
+var article = document.getElementById('citation');
 
 
 function showhide () {
 
-    article.textContent = "L'important n'est pas la chute, mais l'atterrissage.";
     document.getElementById("citation").innerHTML = "L'important n'est pas la chute, mais l'atterrissage.";
 
-    if (getComputedStyle(citation).display != "none") {
-        citation.style.display ="none";
+    if (getComputedStyle(article).display != "none") {
+        article.style.display ="none";
     } else  {
-        citation.style.display = "block";
+        article.style.display = "block";
     }
 }
 
