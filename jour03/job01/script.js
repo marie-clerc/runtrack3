@@ -5,27 +5,22 @@
  classe pour cacher cet élément. ”.
  En dessous faire un bouton qui servira à cacher tout l’élément html.*/
 
-var button = document.getElementById("button");
-var article = document.getElementById('citation');
-var buttonbye = document.getElementById("buttonBye");
+$(document).ready(function()
+    {
+        $("#citation").hide();
+        $("#buttonBye").hide();
 
-// faire disparaitre l 'article de le bouton bye
-buttonbye.style.display = "none";
-article.style.display = "none";
+        $("#button").on("click",function() {
+            $("#button").hide();
+            $("#citation").show();
+            $("#buttonBye").show();
+        })
 
-function show () {
-    // faire apparaitre l'article et le bouton
-    article.style.display = "block";
-    buttonbye.style.display = "block";
-    // faire disparaitre le 1er bouton
-    button.style.display = "none";
-}
-
-function bye () {
-    // faire tout disparaitre
-    article.style.display ="none";
-    buttonbye.style.display = "none";
-}
-
-button.addEventListener('click', show);
-buttonbye.addEventListener('click', bye);
+        $("#buttonBye").on("click", function ()
+            {
+                $("#citation").hide();
+                $("#buttonBye").hide();
+            }
+        )
+    }
+)
