@@ -27,13 +27,13 @@
         1
     </section>
     <section class="section">
-        1
+        2
     </section>
     <section class="section">
-        1
+        3
     </section>
     <section class="section">
-        1
+        4
     </section>
 </main>
     <!-- JS -->

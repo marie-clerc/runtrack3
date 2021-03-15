@@ -168,7 +168,6 @@ main {
         border: #88c1d0 1px solid;
     }
 }
-/* 48em = 768px */
 
 @media (max-width: 48em) {
     .header li {
