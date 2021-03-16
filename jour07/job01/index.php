@@ -10,7 +10,7 @@
 
     <title>Jour 07</title>
 </head>
-<body class="bg-secondary">
+<body style="background-color: lightgray">
 
 <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
