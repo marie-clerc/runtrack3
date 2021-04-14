@@ -28,9 +28,9 @@
             Développeuse Web à Marseille</h1>
             <br>
             <p>
-                Découvrez mon Portfolio ici <br>
+                Découvrez mon Portfolio <a href="#portfolio">ici</a> <br>
                 Recherche d'alternance pour Sept.2021, <br>
-                contactez-moi ici
+                contactez-moi <a href="#contact">ici</a>
             </p>
         </div>
 

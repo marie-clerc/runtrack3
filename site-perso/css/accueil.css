@@ -172,6 +172,9 @@ main {
     position: relative;
     top: 6rem;
 }
+#intro a {
+    text-decoration: none;
+}
 
 #portfolio, #apropos, #contact {
     text-transform: uppercase;
